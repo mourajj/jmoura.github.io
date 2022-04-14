@@ -1,8 +1,12 @@
-import React from 'react';
-import WorkImg from '../assets/workImg.jpeg';
+import React, {useState}  from 'react';
+import devbook from '../assets/devbook.png';
 import realEstate from '../assets/realestate.PNG';
+import Modal from "../components/Modal";
 
-const Work = () => {
+
+const Work = () => 
+{ 
+  const [openModal, setOpenModal] = useState(false)
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0f0f0f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -18,7 +22,7 @@ const Work = () => {
 
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${devbook})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -27,11 +31,10 @@ const Work = () => {
                 Devbook
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
+                  <button onClick={() => setOpenModal(true)} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300' >
                     Demo
                   </button>
-                </a>
+                  <Modal open={openModal} onClose={() => setOpenModal(false)}/>
                 <a href='https://github.com/mourajj/Devbook'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300 '>
                     Code

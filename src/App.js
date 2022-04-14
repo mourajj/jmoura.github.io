@@ -4,9 +4,12 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import Modal from "./components/Modal";
+import React, {useState} from 'react';
 
 
 function App() {
+  
   return (
     <div>
       <Navbar/>
@@ -15,6 +18,7 @@ function App() {
       <Skills/>
       <Work/>
       <Contact/>
+      <Modal/>
     </div>
   );
 }
