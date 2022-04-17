@@ -28,14 +28,17 @@ const Work = () =>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Devbook
+                DevSocial
               </span>
+              <p>Golang / MySQL / JavaScript</p>
               <div className='pt-8 text-center'>
-                  <button onClick={() => setOpenModal(true)} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300' >
+                <a href='https://devsocial-jmoura.herokuapp.com/'>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300 '>
                     Demo
                   </button>
-                  <Modal open={openModal} onClose={() => setOpenModal(false)}/>
-                <a href='https://github.com/mourajj/Devbook'>
+                  </a>
+                <a href='https://github.com/mourajj/DevSocial'>
+                
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300 '>
                     Code
                   </button>
@@ -52,6 +55,7 @@ const Work = () =>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Rest Application
               </span>
+              <p>Golang / PostGreSQL</p>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
