@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4ae20800.css",
-    "main.js": "/portfolio/static/js/main.90fd319d.js",
+    "main.js": "/portfolio/static/js/main.27acedf2.js",
     "static/media/devbook.gif": "/portfolio/static/media/devbook.a523de75b170075e1547.gif",
     "static/media/video.mp4": "/portfolio/static/media/video.de097134165aba64b522.mp4",
     "static/media/tictactoe.PNG": "/portfolio/static/media/tictactoe.180ab59d01a8c2263bac.PNG",
@@ -10,6 +10,7 @@
     "static/media/go.png": "/portfolio/static/media/go.24594a3ffb1d27c6c584.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/aws.png": "/portfolio/static/media/aws.95bdee6b9922c9b94fd5.png",
+    "static/media/golang.png": "/portfolio/static/media/golang.48bdffe4c6e18ab62d8a.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.b18092c6c25d540eeb74.png",
     "static/media/mongo.png": "/portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/java.png": "/portfolio/static/media/java.7f2bbb656feaa7ac3d56.png",
@@ -23,10 +24,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.4ae20800.css.map": "/portfolio/static/css/main.4ae20800.css.map",
-    "main.90fd319d.js.map": "/portfolio/static/js/main.90fd319d.js.map"
+    "main.27acedf2.js.map": "/portfolio/static/js/main.27acedf2.js.map"
   },
   "entrypoints": [
     "static/css/main.4ae20800.css",
-    "static/js/main.90fd319d.js"
+    "static/js/main.27acedf2.js"
   ]
 }
