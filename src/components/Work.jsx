@@ -58,11 +58,6 @@ const Work = () =>
               </span>
               <p>Golang / PostGreSQL</p>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
-                    Demo
-                  </button>
-                </a>
                 <a href='https://github.com/mourajj/webapi-go'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
                     Code
@@ -88,7 +83,7 @@ const Work = () =>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/mourajj/webapi-go'>
+                <a href='https://github.com/mourajj/tic-tac-toe'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
                     Code
                   </button>
