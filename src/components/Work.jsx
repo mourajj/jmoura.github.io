@@ -3,7 +3,7 @@ import devbook from '../assets/devbook.png';
 import realEstate from '../assets/realestate.PNG';
 import tictactoe from '../assets/tictactoe.PNG';
 import golang from '../assets/golang.png';
-import Modal from "../components/Modal";
+import bitcoin from '../assets/bitcoin.jpeg';
 
 
 const Work = () => 
@@ -49,7 +49,26 @@ const Work = () =>
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${bitcoin})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 text-center '>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Bitcoin Wallet
+              </span>
+              <p>Golang / Rest / External API </p>
+              <div className='pt-8 text-center'>
+                <a href='https://github.com/mourajj/maxxer'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${golang})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
