@@ -17,8 +17,8 @@ const About = () => {
               <p>Nice to meet you.</p>
             </div>
             <div>
-              <p>I am currently working as a Product Engineer at SAP, and I'm passionate with programming. 
-              One of my hobbies is developing applications with specific technologies that I'm curious about. Feel free to take a look on my recent personal projects =)</p>  
+              <p>I am currently working as a Software Engineer at SAP, and I'm passionate with programming. 
+              One of my hobbies is developing applications with specific technologies that I'm curious about and also make some Youtube videos. Feel free to take a look =)</p>  
             </div>
           </div>
       </div>
