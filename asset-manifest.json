@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d6c481b1.css",
-    "main.js": "/portfolio/static/js/main.bfa3e1a8.js",
+    "main.css": "/portfolio/static/css/main.ce0b0de4.css",
+    "main.js": "/portfolio/static/js/main.8ecb2a68.js",
     "static/media/devbook.gif": "/portfolio/static/media/devbook.a523de75b170075e1547.gif",
     "static/media/elasticsearch.png": "/portfolio/static/media/elasticsearch.f5841659281549d9f131.png",
     "static/media/video.mp4": "/portfolio/static/media/video.de097134165aba64b522.mp4",
@@ -18,16 +18,18 @@
     "static/media/bitcoin.jpeg": "/portfolio/static/media/bitcoin.b5ceb638b8c919b889d1.jpeg",
     "static/media/jenkins.png": "/portfolio/static/media/jenkins.7dc5692a61454c8b2580.png",
     "static/media/golang.png": "/portfolio/static/media/golang.48bdffe4c6e18ab62d8a.png",
+    "static/media/publisher.png": "/portfolio/static/media/publisher.49b2b2bd29b3974730af.png",
     "static/media/java.png": "/portfolio/static/media/java.7f2bbb656feaa7ac3d56.png",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/sql.png": "/portfolio/static/media/sql.e742a0a409270dbe6e7e.png",
+    "static/media/diet.png": "/portfolio/static/media/diet.fe963b0183c65ca36d3d.png",
     "static/media/logo.png": "/portfolio/static/media/logo.1f07be270ed4a1e02ca7.png",
     "index.html": "/portfolio/index.html",
-    "main.d6c481b1.css.map": "/portfolio/static/css/main.d6c481b1.css.map",
-    "main.bfa3e1a8.js.map": "/portfolio/static/js/main.bfa3e1a8.js.map"
+    "main.ce0b0de4.css.map": "/portfolio/static/css/main.ce0b0de4.css.map",
+    "main.8ecb2a68.js.map": "/portfolio/static/js/main.8ecb2a68.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6c481b1.css",
-    "static/js/main.bfa3e1a8.js"
+    "static/css/main.ce0b0de4.css",
+    "static/js/main.8ecb2a68.js"
   ]
 }
