@@ -1,12 +1,9 @@
-import React, {useState}  from 'react';
-import devbook from '../assets/devbook.png';
+import React, { useState } from 'react';
 import golang from '../assets/publisher.png';
-import diet from '../assets/diet.png';
+import mmanager from '../assets/membermanager.png';
 
-
-const Contact = () => 
-{ 
-  const [openModal, setOpenModal] = useState(false)
+const Contact = () => {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0f0f0f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -17,28 +14,22 @@ const Contact = () =>
           <p className='py-6'>// Check out some of my recent work</p>
         </div>
 
-{/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-
- 
-          <div
-            style={{ backgroundImage: `url(${diet})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 text-center '>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Go - Diet Assistant
+        {/* Container */}
+        <div className='flex flex-col gap-4'>
+          {/* Project 1 */}
+          <div className='flex gap-4 items-center'>
+            <div
+              style={{ backgroundImage: `url(${mmanager})` }}
+              className='shadow-lg shadow-[#040c16] group container h-40 bg-cover bg-center'
+            />
+            <div className='text-white'>
+              <span className='text-2xl font-bold'>
+                Member Manager
               </span>
-              <p>A golang application powered by openAI API to generate answers about food and calories </p>
-              <div className='pt-8 text-center'>
-                <a href='https://diet-assistant.herokuapp.com/'>
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300 '>
-                    Demo
-                  </button>
-                  </a>
-                <a href='https://github.com/mourajj/calories-counter'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
+              <p>This is a CRUD microservice application responsible for managing members</p>
+              <div className='pt-2'>
+                <a href='https://github.com/mourajj/member-manager'>
+                  <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
                     Code
                   </button>
                 </a>
@@ -46,58 +37,32 @@ const Contact = () =>
             </div>
           </div>
 
-
-          <div
-            style={{ backgroundImage: `url(${golang})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 text-center '>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+          {/* Project 2 */}
+          <div className='flex gap-4 items-center'>
+            <div
+              style={{ backgroundImage: `url(${golang})` }}
+              className='shadow-lg shadow-[#040c16] group container h-40 bg-cover bg-center'
+            />
+            <div className='text-white'>
+              <span className='text-2xl font-bold'>
                 Event Publisher
               </span>
-              <p> Application to send events (files) to S3, built on top of a cloudformation stack</p>
-              <div className='pt-8 text-center'>
+              <p>Application to send events (files) to S3, built on top of a cloudformation stack</p>
+              <div className='pt-2'>
                 <a href='https://github.com/mourajj/eventpublisher'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
+                  <button className='rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300'>
                     Code
                   </button>
                 </a>
               </div>
             </div>
           </div>
-                     {/* Grid Item */}
-                     <div
-            style={{ backgroundImage: `url(${devbook})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                DevSocial
-              </span>
-              <p>Golang / MySQL / JavaScript</p>
-              <div className='pt-8 text-center'>
-                <a href='https://devsocial-jmoura.herokuapp.com/'>
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300 '>
-                    Demo
-                  </button>
-                  </a>
-                <a href='https://github.com/mourajj/DevSocial'>
-                
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-gray-300 '>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          
 
-          </div>
+          {/* Project 3 */}
+        
         </div>
       </div>
-    
+    </div>
   );
 };
 
